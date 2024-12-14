@@ -1,0 +1,122 @@
+
+ /* General Styles */
+ body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafc;
+}
+
+.container {
+    width: 210mm;
+    height: 297mm;
+    margin: auto;
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+}
+
+/* Left Section */
+.left-section {
+    width: 30%;
+    background-color: #003f5c;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-section img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+.left-section h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.left-section h2 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.left-section .contact-info, .left-section .summary, .left-section .achievements, .left-section .courses {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.left-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+.left-section p, .left-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.left-section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+/* Right Section */
+.right-section {
+    width: 70%;
+    padding: 20px;
+}
+
+.right-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #003f5c;
+    text-transform: uppercase;
+    border-bottom: 2px solid #003f5c;
+    padding-bottom: 5px;
+}
+
+.right-section .section {
+    margin-bottom: 30px;
+}
+
+.right-section p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 5px 0;
+    color: #333333;
+}
+
+.right-section ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #555555;
+}
+
+.skills span {
+    display: inline-block;
+    background: #e8f5e9;
+    color: #003f5c;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
